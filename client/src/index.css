@@ -113,3 +113,37 @@
   align-items: center;
   justify-content: center;
 }
+
+
+/* ========================================= */
+/* ========= Register page ========= */
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 76vh;
+  flex-direction: column;
+  background-color: rgb(194, 194, 194);
+  /* width: 400px; */
+}
+
+.inputsize input{
+  width: 300px;
+}
+
+.summit{
+  border: none;
+  font-size: larger;
+  width: 300px;
+  margin-top: 5px;
+  /* margin-left: 40px; */
+  /* margin-top: 50px; */
+  height: 45px;
+  background-color: rgb(15, 160, 200);
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  
+}
