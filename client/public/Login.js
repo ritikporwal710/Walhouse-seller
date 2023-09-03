@@ -4,7 +4,7 @@ import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import toast from 'react-hot-toast';
 import "../../styles/AuthStyles.css";
-import { useAuth } from "../../context/auth.js";
+import { useAuth } from "../../context/auth";
 
     
 
@@ -30,7 +30,7 @@ const Login = () => {
                   user: res.data.user,
                   token: res.data.token,
                 })
-                localStorage.setItem('auth',JSON.stringify(res.data)); 
+                localStorage.setItem('auth',JSON.stringify(res.data));
                 navigate('/');
             }
             else{
